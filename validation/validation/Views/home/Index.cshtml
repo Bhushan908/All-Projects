@@ -1,0 +1,32 @@
+﻿@model validation.Models.employee
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm("submitdata", "home", FormMethod.Post))
+        {       
+                
+                @Html.TextBoxFor(x=>x.firstname)<br /><br />
+                @Html.ValidationMessageFor(x=>x.firstname)<br />
+
+                @Html.TextBoxFor(x=>x.lastname)<br />
+                @Html.ValidationMessageFor(x=>x.lastname)<br />
+
+                @Html.TextBoxFor(x=>x.email)<br /><br />
+                @Html.ValidationMessageFor(x=>x.email)<br />
+
+                @Html.TextBoxFor(x=>x.age)<br />
+                @Html.ValidationMessageFor(x=>x.age)<br />
+            <input type="submit" name="click me" /> 
+            }
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\Users\bhushan\source\repos\ThenByAndThenByDescending\ThenByAndThenByDescending\bin\Debug\ThenByAndThenByDescending.exe.config
+C:\Users\bhushan\source\repos\ThenByAndThenByDescending\ThenByAndThenByDescending\bin\Debug\ThenByAndThenByDescending.exe
+C:\Users\bhushan\source\repos\ThenByAndThenByDescending\ThenByAndThenByDescending\bin\Debug\ThenByAndThenByDescending.pdb
+C:\Users\bhushan\source\repos\ThenByAndThenByDescending\ThenByAndThenByDescending\obj\Debug\ThenByAndThenByDescending.csproj.AssemblyReference.cache
+C:\Users\bhushan\source\repos\ThenByAndThenByDescending\ThenByAndThenByDescending\obj\Debug\ThenByAndThenByDescending.csproj.CoreCompileInputs.cache
+C:\Users\bhushan\source\repos\ThenByAndThenByDescending\ThenByAndThenByDescending\obj\Debug\ThenByAndThenByDescending.exe
+C:\Users\bhushan\source\repos\ThenByAndThenByDescending\ThenByAndThenByDescending\obj\Debug\ThenByAndThenByDescending.pdb

@@ -1,0 +1,47 @@
+﻿@model tradirouting.Models.address
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>getstudentaddress</title>
+</head>
+<body>
+    <div>
+        <h4>address</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.homenumber)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.homenumber)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.address1)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.address1)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.city)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.city)
+            </dd>
+    
+        </dl>
+    </div>
+ 
+</body>
+</html>

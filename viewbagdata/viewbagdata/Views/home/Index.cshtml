@@ -1,0 +1,28 @@
+﻿
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1>
+            @ViewBag.myname
+        </h1>
+        
+    </div>
+    <div> 
+        <ul>
+            @foreach(var item in ViewBag.mylist) 
+            {
+                <li>@item</li>
+                
+            }
+        </ul>
+    </div>
+
+</body>
+</html>
